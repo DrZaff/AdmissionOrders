@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const label = document.createElement("label");
         label.htmlFor = id;
-        label.textContent = `[ ] ${text}`; // keep user-visible checkbox token exactly as shown
+        label.textContent = text;
 
         cb.addEventListener("change", () => {
           state[key] = cb.checked;

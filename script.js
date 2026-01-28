@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Labs",
       items: [
         "Admission labs (CBC, BMP/CMP, Mg, Phos, LFTs, Coags)",
-        "Type and screen (if needed)",
+        "Type and screen (if indicated)",
         "Additional labs (Troponin, BNP, lactate, cultures)",
         "Morning lab draws (repeats)"
       ]
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Imaging",
       items: [
-        "CXR, CT, US, MRI ordered if indicated",
+        "CXR, CT, US, MRI ordered (if indicated)",
         "Bedside studies (bladder scan, POCUS)"
       ]
     },
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Consults",
       items: [
         "Place specialty consults (cardiology, ID, nephrology, etc.)",
-        "Wound care orders (wound care consult if needed)",
+        "Wound care orders (wound care consult if indicated)",
         "Document that consults were requested"
       ]
     },
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Disposition Planning",
       items: [
-        "PT/OT consult if needed",
+        "PT/OT consult (if indicated)",
         "Case management / discharge planning referral"
       ]
     }

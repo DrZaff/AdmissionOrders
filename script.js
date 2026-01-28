@@ -10,8 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Admitting Diagnosis & Code Status",
       items: [
         "Confirm admitting diagnosis",
+	"Determine level of care (if stepdown, document why)",
         "Confirm code status (Full, DNR, DNI, CMO)",
-        "Isolation precautions (COVID, C. diff, etc.)"
+	"Document ACP note (or addend prior)",
+        "Consider isolation precautions (COVID, C. diff, etc.)"
       ]
     },
     {
@@ -37,13 +39,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "Review nephrotoxic meds (ACEi/ARBs, NSAIDs, diuretics, etc.)",
         "Review blood thinners (warfarin, DOACs, antiplatelets)",
         "DVT prophylaxis (heparin, enoxaparin, SCDs)",
-        "Antibiotics started if indicated",
+        "Antibiotics started (if indicated)",
         "Pain control",
         "Antiemetics",
         "Bowel regimen",
         "Glucose control",
-        "Sleep",
-        "Agitation"
+        "Sleep/agitation",
+	"IV fluids (if indicated)",
+        "Nicotine replacement therapy (if indicated)"
       ]
     },
     {
@@ -57,9 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Nursing Orders / Special Instructions",
       items: [
-        "I&O monitoring",
+        "I&O monitoring/daily weights",
         "Diet orders",
-        "Sleep bundle (lights off, minimize disturbances, melatonin PRN)"
+	"Telemetry/pulseOX (if indicated)",
+        "Sleep bundle (lights off, minimize disturbances, melatonin PRN)",
+	"CIWA/COWS (if indicated)"
       ]
     },
     {
